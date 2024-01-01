@@ -1,0 +1,13 @@
+h3 {
+  margin-top: 75px;
+  color: gray;
+}
+
+.btn {
+  padding: 10px;
+  background-color: white;
+  border: none;
+  border-radius: 35px;
+  margin-right: 35px;
+  color: gray;
+}
