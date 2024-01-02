@@ -1,6 +1,6 @@
 import {Route, Switch} from 'react-router-dom'
 
-import About from './components/About'
+import Questions from './components/Questions'
 import NavBar from './components/NavBar'
 import Header from './components/Header'
 import NotFound from './components/NotFound'
@@ -13,7 +13,7 @@ const App = () => (
     <div className="app-body">
       <Header />
       <Switch>
-        <Route exact path="/" component={About} />
+        <Route exact path="/" component={Questions} />
         <Route component={NotFound} />
       </Switch>
     </div>
